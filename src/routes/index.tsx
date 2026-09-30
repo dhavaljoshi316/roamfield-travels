@@ -22,6 +22,7 @@ import experienceGrid from "@/assets/experiences-grid.jpg";
 import heroImage from "@/assets/hero-lake-como.jpg";
 import inspirationGrid from "@/assets/inspiration-grid.jpg";
 import logoAsset from "@/assets/roamfield-logo.png.asset.json";
+import mark from "@/assets/roamfieldtravellogo.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -91,7 +92,7 @@ function Logo({ inverse = false }: { inverse?: boolean }) {
   return (
     <a href="#home" aria-label="Roamfield Travel home" className="block shrink-0">
       <img
-        src={logoAsset.url}
+        src={mark}
         alt="Roamfield Travel"
         width={768}
         height={768}
